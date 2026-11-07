@@ -21,6 +21,6 @@ design:
 advanced:
   css_class: fullscreen
 ---
-**Ecotoxicology · Mercury · Mitochondria · Long-term datasets · Dippers**
+**Ecotoxicology · Ecophysiology · Long-term datasets · Wild birds**
 
 PhD candidate at the Swiss Ornithological Institute and the University of Lausanne. I investigate the sources of mercury and metal exposure in wild birds and its physiological and fitness consequences, with a focus on mitochondrial function as an early-warning biomarker of mercury-induced effects.

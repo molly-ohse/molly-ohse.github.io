@@ -49,10 +49,8 @@
   /* Banner (hero): only the description paragraph is smaller;
      the name and the bold keyword line keep the theme size */
   .hero-lead p:not(:first-child) { font-size: 1.15rem; line-height: 1.6; }
-  /* Let the banner text use more of the page width (theme default is half) */
-  @media (min-width: 768px) {
-    .wg-hero .row > .col-md-6 { flex: 0 0 85%; max-width: 85%; }
-  }
+  /* Let the banner text use more of the page width (theme caps it at 768px) */
+  .wg-hero .hero-lead { max-width: 1000px; }
   @media (max-width: 768px) {
     .hero-lead p:not(:first-child) { font-size: 1rem; }
   }

@@ -1,6 +1,6 @@
 # Personal website
 
-[Molly Ohse's website](https://mollyohse.github.io)
+[Molly Ohse's website](https://molly-ohse.github.io)
 
 Built with blogdown, Hugo and the Wowchemy (Hugo Academic) theme.
 Site structure and publication script adapted, with thanks, from

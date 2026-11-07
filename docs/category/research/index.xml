@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research | Molly Ohse</title>
+    <link>/category/research/</link>
+      <atom:link href="/category/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2026 Molly Ohse</copyright><lastBuildDate>Thu, 29 Oct 2026 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu9de50292016a166088f5b249ab58de73_19061_512x512_fill_lanczos_center_3.png</url>
+      <title>Research</title>
+      <link>/category/research/</link>
+    </image>
+    
+    <item>
+      <title>New paper in Biology Open: high-throughput measurement of mitochondrial metabolism</title>
+      <link>/post/biology-open-plate-reader-2026/</link>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
+      <guid>/post/biology-open-plate-reader-2026/</guid>
+      <description>&lt;p&gt;Our paper with Cloé Hadjadji, Antoine Stier, and Pierre Bize has been published in &lt;em&gt;Biology Open&lt;/em&gt;. We show that mitochondrial aerobic metabolism in avian red blood cells can be measured with a general-purpose plate reader, validated against high-resolution respirometry. Unlike dedicated respirometry instruments, which are costly and process few samples at a time, this high-throughput approach makes it feasible to measure mitochondrial function in large numbers of samples from wild birds.&lt;/p&gt;
+&lt;p&gt;Read the paper: &lt;a href=&#34;https://doi.org/10.1242/bio.062712&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hadjadji, Ohse, Stier &amp;amp; Bize (2026), &lt;em&gt;Biology Open&lt;/em&gt; 15, bio062712&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Cloé and I were also featured in the journal&amp;rsquo;s &lt;em&gt;First Person&lt;/em&gt; series, where we discuss our research and career paths: &lt;a href=&#34;https://doi.org/10.1242/bio.062968&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read the interview&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

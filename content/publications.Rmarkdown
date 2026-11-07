@@ -26,6 +26,11 @@ library(jsonlite)
 library(tidyverse)
 library(glue)
 
+# Give up on any web request (Google Scholar, ORCID, Crossref) after 20 s,
+# so a blocked request can never stall the site build.
+httr::set_config(httr::timeout(20))
+options(timeout = 20)
+
 # my google scholar user id, from my profile url
 # https://scholar.google.com/citations?user=jOQ2SqAAAAAJ&hl=en
 id_scholar <- "jOQ2SqAAAAAJ"

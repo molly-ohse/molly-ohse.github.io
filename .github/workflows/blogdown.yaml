@@ -1,0 +1,157 @@
+# Build the Hugo + R/blogdown site and publish to /docs/ for GitHub Pages.
+#
+# Triggers:
+#   - push to main/master (skipping commits that only touch docs/ to avoid loops)
+#   - weekly cron (Sunday 02:00 UTC) → keeps the Google Scholar publication list
+#     and citation counts fresh
+#   - manual run from the Actions tab (workflow_dispatch)
+#
+# What it does:
+#   1. Installs R + pandoc + R packages (via setup-r-dependencies, which uses
+#      pak and the Posit Public Package Manager → fast binary installs + auto cache)
+#   2. Installs Hugo via blogdown
+#   3. Runs blogdown::build_site() (knits the .Rmarkdown chunks → publications)
+#   4. Adds .nojekyll to the build output
+#   5. Mirrors the build into docs/ (the folder GitHub Pages serves for *.github.io)
+#   6. Commits docs/ back to the repo if anything changed
+
+name: blogdown
+
+on:
+  push:
+    branches: [main, master]
+    paths-ignore:
+      - 'docs/**'
+  schedule:
+    - cron: '0 2 * * 0'   # Every Sunday at 02:00 UTC
+  workflow_dispatch:       # Manual trigger from the Actions tab
+
+permissions:
+  contents: write          # Needed to push the rebuilt docs/ back to the repo
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0   # Full history so the auto-commit works cleanly
+
+      - name: Setup pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3'
+          # Use Posit Public Package Manager binaries → 10-100x faster than source.
+          use-public-rspm: true
+
+      - name: Install R packages
+        # setup-r-dependencies uses pak under the hood, handles caching
+        # automatically, and installs system dependencies on Ubuntu.
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::rmarkdown
+            any::blogdown
+            any::scholar
+            any::tidyverse
+            any::glue
+
+      - name: Install Hugo (via blogdown)
+        run: |
+          # Use the version blogdown currently expects. If a future blogdown
+          # release demands a newer Hugo, change this string (the error message
+          # in CI will tell you which version it wants).
+          blogdown::install_hugo(version = "0.111.3", extended = TRUE)
+        shell: Rscript {0}
+
+      - name: Build site
+        run: |
+          # Build the site, knitting the .Rmarkdown files (Google Scholar fetch).
+          # build_rmd = TRUE forces publications.Rmarkdown to be re-knit every
+          # run (not just once) so new Scholar publications/citations actually
+          # show up on the weekly schedule instead of only on manual local edits.
+          #
+          # Google Scholar frequently blocks/rate-limits requests coming from
+          # GitHub Actions' shared IP ranges ("Cannot connect to Google
+          # Scholar"), which makes rmarkdown::render() error out. When that
+          # happens, don't let it take down the whole site build: fall back to
+          # building with build_rmd = FALSE, which reuses whatever
+          # content/publications.markdown was last successfully knit (its
+          # on-disk copy is untouched by a failed render, since the new output
+          # is only written after rendering succeeds). New Scholar data just
+          # won't appear on runs where Google blocks the request - the
+          # existing publications list is preserved rather than the deploy
+          # breaking.
+          tryCatch({
+            blogdown::build_site(local = FALSE, run_hugo = TRUE, build_rmd = TRUE)
+          }, error = function(e) {
+            message(
+              "Rmd build failed, likely Google Scholar blocking GitHub's IP: ",
+              conditionMessage(e)
+            )
+            message("Falling back to building the site without re-knitting Rmd files.")
+            blogdown::build_site(local = FALSE, run_hugo = TRUE, build_rmd = FALSE)
+          })
+          # Make sure GitHub Pages doesn't run Jekyll on the output
+          file.create("public/.nojekyll")
+        shell: Rscript {0}
+
+      - name: Mirror public/ into docs/
+        run: |
+          # Wipe old docs/ content (except .git, just in case) and copy the fresh build.
+          # The leading dot in `public/.` means "copy contents, including dotfiles".
+          mkdir -p docs
+          find docs -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+          cp -R public/. docs/
+          # Belt-and-braces .nojekyll
+          touch docs/.nojekyll
+          echo "--- Contents of docs/ ---"
+          ls -la docs/ | head -20
+
+      - name: Stamp build time
+        # Always changes, so the weekly cron run always produces a commit.
+        # GitHub auto-disables scheduled workflows after 60 days without a
+        # commit to the repo — this keeps the clock permanently reset.
+        run: date -u +"%Y-%m-%dT%H:%M:%SZ" > docs/.last-build
+
+      - name: Commit and push docs/
+        # Plain git commands instead of a third-party action: the
+        # git-auto-commit-action's file_pattern glob ('docs/**') was failing
+        # to detect brand-new untracked files directly under docs/ (verified:
+        # docs/.last-build never got picked up, so the site never updated
+        # even though every step reported success). This is unambiguous.
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # scholar_cache.json must be committed, not just built: it is the
+          # fallback the publications page reads when Google Scholar blocks
+          # this runner. If it were left uncommitted, every run would start
+          # with no cache and the citation numbers would vanish.
+          # content/publications.markdown is the knitted output, committed so
+          # the last good render is always in the repo.
+          for p in docs scholar_cache.json content/publications.markdown; do
+            if [ -e "$p" ]; then git add -A -- "$p"; fi
+          done
+
+          echo "--- git status (staged) ---"
+          git status --porcelain
+
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            # [skip ci] stops this commit from triggering another run of this
+            # same workflow (docs/ is in paths-ignore, but the cache file and
+            # the knitted markdown are not).
+            git commit -m "chore: rebuild site [skip ci]"
+            # A concurrent run may have pushed in the meantime; rebase and retry
+            # rather than failing the job.
+            git push || (git pull --rebase && git push)
+          fi

@@ -1,0 +1,9 @@
+# Languages
+#   Documentation: https://wowchemy.com/docs/guide/language/
+#   To add a translation later, copy Giulia's original languages.yaml pattern.
+
+# Default language (English)
+en:
+  languageCode: en-gb
+  languageName: English
+  weight: 1

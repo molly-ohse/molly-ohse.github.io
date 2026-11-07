@@ -1,0 +1,20 @@
+# This workflow has been disabled.
+#
+# It was originally added by the blogdown template (R-CMD-check), but this repo
+# is a Hugo site, not an R package — so the check has nothing meaningful to do
+# and would just fail noisily on every push.
+#
+# The actual build workflow is in blogdown.yaml.
+#
+# You can safely delete this file from the repository entirely:
+#   git rm .github/workflows/check-release.yaml && git commit -m "remove unused R-CMD-check workflow"
+
+# An empty workflow with no triggers is a no-op (GitHub will not run it).
+name: disabled-R-CMD-check
+on: workflow_dispatch
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    if: false   # Never runs
+    steps:
+      - run: echo "disabled"

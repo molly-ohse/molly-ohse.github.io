@@ -1,0 +1,159 @@
+# SITE SETUP
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+
+theme: dipper
+day_night: true
+font: native
+font_size: L
+
+# SEO
+
+site_type: Person
+local_business_type: ''
+org_name: ''
+description: 'PhD candidate in wildlife ecotoxicology and ecophysiology at the Swiss Ornithological Institute and University of Lausanne. Mercury, mitochondria and oxidative stress in wild birds.'
+
+# Contact (edit or remove options as required)
+
+email: ""
+phone:
+
+contact_links:
+  - icon: google-scholar
+    icon_pack: ai
+    name: Google Scholar
+    link: https://scholar.google.com/citations?user=jOQ2SqAAAAAJ&hl=en
+  - icon: orcid
+    icon_pack: ai
+    name: ORCID
+    link: https://orcid.org/0009-0006-2303-4723
+  - icon: linkedin
+    icon_pack: fab
+    name: LinkedIn
+    link: https://www.linkedin.com/in/molly-ohse-5b4169157
+
+address:
+  street: Seerose 1
+  city: Sempach
+  region:
+  postcode: 'CH-6204'
+  country: Switzerland
+  country_code: CH
+coordinates:
+  latitude: '47.125896' 
+  longitude: '8.193602'
+directions: 
+#Enter Building 1 and take the stairs to Office 200 on Floor 2
+#office_hours:
+#  - 'Monday 10:00 to 13:00'
+#  - 'Wednesday 09:00 to 10:00'
+#appointment_url: 'https://calendly.com'
+
+
+# Site header
+
+main_menu:
+  enable: true
+  align: r
+  show_logo: true
+  show_language: false
+  show_day_night: true
+  show_search: true
+  highlight_active_link: true
+
+# Localization
+
+date_format: 'January 2, 2006'
+time_format: '15:04'
+address_format: en-us
+
+# Site features
+
+highlight: true
+highlight_languages:
+  - r
+  - python
+  - latex
+math: false
+diagram: false
+privacy_pack: false
+edit_page:
+  repo_url: ''
+  content_dir: ''
+  repo_branch: main
+  editable:
+    page: false
+    post: false
+    book: false
+show_related:
+  book: true
+  page: false
+  post: true
+  project: true
+  publication: true
+  event: true
+reading_time: true
+section_pager: false
+docs_section_pager: true
+sharing: true
+copyright_license:
+  enable: false
+  allow_derivatives: false
+  share_alike: true
+  allow_commercial: false
+  notice: 'This work is licensed under {license}'
+abstract_length: 135
+plugins_js: []
+avatar:
+  gravatar: false
+  shape: circle
+publications:
+  date_format: January 2006
+  citation_style: apa
+projects:
+  post_view: 2
+  publication_view: 2
+  talk_view: 2
+breadcrumb:
+  page_types:
+    book: true
+comments:
+  provider: ''
+  commentable:
+    post: true
+    book: true
+    project: true
+    publication: true
+    event: true
+  disqus:
+    shortname: ''
+    show_count: true
+  commento:
+    url: ''
+search:
+  provider: wowchemy
+  algolia:
+    app_id: ''
+    api_key: ''
+    index_name: ''
+    show_logo: false
+map:
+  provider: mapnik
+  api_key: ''
+  zoom: 15
+marketing:
+  google_analytics: ''
+  google_tag_manager: ''
+  google_site_verification: ''
+  baidu_site_verification: ''
+  baidu_tongji: ''
+cms:
+  branch: master
+  local_backend: false
+icon:
+  pack:
+    ai: true

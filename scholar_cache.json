@@ -1,0 +1,25 @@
+{
+  "h_index": 1,
+  "total_cites": 1,
+  "fetched": "07 November 2026",
+  "works": [
+    {
+      "key": "highthroughputmitochondrialaerobicmetabolismmeasurementassessingaplatereaderapproachusingavianbloodcells",
+      "title": "High-throughput mitochondrial aerobic metabolism measurement: assessing a plate-reader approach using avian blood cells",
+      "author": "C Hadjadji, M Ohse, A Stier, P Bize",
+      "journal": "Biology Open",
+      "number": "15 (10), bio062712",
+      "cites": 1,
+      "year": 2026
+    },
+    {
+      "key": "repeatedmeasuresofmercuryconcentrationsdemonstratepersistentterritorylevelcontaminationandstableindividualdifferencesinexposureinariverinebirdpredator",
+      "title": "Repeated measures of mercury concentrations demonstrate persistent territory-level contamination and stable individual differences in exposure in a riverine bird predator",
+      "author": "M Ohse, L Hinninger, G Norton, B Doligez, P Bize",
+      "journal": "",
+      "number": "",
+      "cites": 0,
+      "year": 2026
+    }
+  ]
+}

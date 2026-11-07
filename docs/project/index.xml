@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Molly Ohse</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2026 Molly Ohse</copyright><lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu9de50292016a166088f5b249ab58de73_19061_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Sources and variation in contaminant exposure</title>
+      <link>/project/mercury-exposure/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/project/mercury-exposure/</guid>
+      <description>&lt;p&gt;Mercury and other metals reach riverine birds through their aquatic prey, yet exposure varies widely among individuals and sites. Using repeated feather samples from a long-term, individual-based population of white-throated dippers in the Massif de la Chartreuse (France), I partition variation in mercury and metal(loid) concentrations among individuals, territories, rivers, and years, and test how urbanisation, agriculture, and elevation shape exposure. Related work compares blood and feather mercury across spatial scales and, using the population&amp;rsquo;s social pedigree, estimates the heritability of mercury contamination.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; Pierre Bize, Blandine Doligez, Gareth Norton, Lara Hinninger&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mitochondria as early-warning biomarkers</title>
+      <link>/project/mitochondria/</link>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/project/mitochondria/</guid>
+      <description>&lt;p&gt;Mitochondrial function integrates genetic, developmental, and environmental influences on performance, and is a likely target of mercury toxicity. In a two-year partial cross-fostering experiment (62 nest pairs, 459 nestlings), I separated natal (genetic and pre-hatching) from rearing (post-hatching) contributions to nestling mitochondrial respiration, and tested whether parental mercury exposure affects mitochondrial function, oxidative stress, and growth. To make this possible in the field, we developed and validated a high-throughput plate-reader method for measuring mitochondrial aerobic metabolism in avian blood cells (&lt;a href=&#34;https://doi.org/10.1242/bio.062712&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hadjadji, Ohse et al. 2026, &lt;em&gt;Biology Open&lt;/em&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; Pierre Bize, Blandine Doligez, Antoine Stier, Cloé Hadjadji, Anne Cillard, Mélina Bastianelli&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Consequences of mercury for life history</title>
+      <link>/project/life-history/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/project/life-history/</guid>
+      <description>&lt;p&gt;Laboratory studies have described mercury&amp;rsquo;s toxic mechanisms in detail, but its consequences in wild populations, where exposure interacts with food limitation, breeding effort, and other stressors, remain poorly characterised. Using repeated measures of feather mercury and long-term individual monitoring, I quantify short-term and carry-over effects of mercury on adult biometry, oxidative stress, reproduction, and survival. Ongoing work measures feather corticosterone to test whether mercury exposure alters the stress physiology of wild dippers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; Pierre Bize, Blandine Doligez&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>River and landscape quality</title>
+      <link>/project/landscape/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/project/landscape/</guid>
+      <description>&lt;p&gt;River status and land-use indices are widely used as proxies for habitat quality, yet whether they predict the performance of vertebrates higher in the food web has rarely been tested. Using territory occupancy and breeding data from the long-term dipper population, I test how urbanisation, elevation, riparian forest, and water quality indicators relate to settlement and reproductive success, and whether dippers settle where they breed best.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; Pierre Bize, Blandine Doligez&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evidence across species</title>
+      <link>/project/meta-analysis/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/project/meta-analysis/</guid>
+      <description>&lt;p&gt;Single-population studies cannot tell us how general contaminant effects are. With Cloé Hadjadji and Pierre Bize, I co-led a phylogenetic meta-analysis of experimental and field studies on metals, metalloids, and oxidative stress in birds (55 studies, 609 effect sizes). A second meta-analysis, which began as my undergraduate thesis, uses DDE and avian reproduction as a case study for estimating chemical risk thresholds in the wild.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; Cloé Hadjadji, Pierre Bize, Francesca Gray, Chinedu Nsude&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

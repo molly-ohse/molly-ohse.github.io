@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conferences | Molly Ohse</title>
+    <link>/category/conferences/</link>
+      <atom:link href="/category/conferences/index.xml" rel="self" type="application/rss+xml" />
+    <description>Conferences</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2026 Molly Ohse</copyright><lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu9de50292016a166088f5b249ab58de73_19061_512x512_fill_lanczos_center_3.png</url>
+      <title>Conferences</title>
+      <link>/category/conferences/</link>
+    </image>
+    
+    <item>
+      <title>Oral presentation at the International Ornithological Congress 2026</title>
+      <link>/post/ioc-talk-2026/</link>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0000</pubDate>
+      <guid>/post/ioc-talk-2026/</guid>
+      <description>&lt;p&gt;I will give an oral presentation at the International Ornithological Congress (IOC 2026) in Mérida, Mexico, in the session &lt;em&gt;Disease and environmental stressors&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Talk:&lt;/strong&gt; &lt;em&gt;Maternal mercury concentrations affect offspring mitochondrial function and growth&lt;/em&gt;
+&lt;strong&gt;When:&lt;/strong&gt; Tuesday 1 December 2026, 16:15
+&lt;strong&gt;Where:&lt;/strong&gt; Room 26A&lt;/p&gt;
+&lt;p&gt;Mercury is a pervasive pollutant known to disrupt mitochondrial respiration, yet its effects on developing offspring in the wild are difficult to separate from genetic and environmental influences. In a two-year partial cross-fostering experiment in white-throated dippers (&lt;em&gt;Cinclus cinclus&lt;/em&gt;), we exchanged nestlings between nests along a gradient of mercury exposure, allowing us to separate pre-hatching (maternal) from post-hatching exposure. The talk presents how maternal mercury relates to nestling mitochondrial respiration, oxidative stress, and growth.&lt;/p&gt;
+&lt;p&gt;I am grateful to the Swiss Society of Toxicology for a travel grant supporting my attendance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Oral presentation at the Swiss Society of Toxicology Annual Meeting 2026</title>
+      <link>/post/sst-talk-2026/</link>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0000</pubDate>
+      <guid>/post/sst-talk-2026/</guid>
+      <description>&lt;p&gt;My abstract, originally accepted as a poster, was selected for an oral presentation at the Swiss Society of Toxicology (SST) Annual Meeting 2026.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Talk:&lt;/strong&gt; &lt;em&gt;Maternal mercury exposure is associated with lower nestling mitochondrial respiration in a wild songbird: a cross-fostering experiment&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The talk presented results from our partial cross-fostering experiment in white-throated dippers, showing that maternal mercury exposure was negatively associated with nestling mitochondrial respiration (OXPHOS), independently of the post-hatching rearing environment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Symposium on avian mitochondria at EOU 2025</title>
+      <link>/post/eou-symposium-2025/</link>
+      <pubDate>Tue, 19 Aug 2025 09:00:00 +0000</pubDate>
+      <guid>/post/eou-symposium-2025/</guid>
+      <description>&lt;p&gt;Together with Cloé Hadjadji and Pierre Bize, I convened the symposium &lt;strong&gt;Avian mitochondria: Powering ecology, evolution, and conservation&lt;/strong&gt; at the 15th European Ornithologists&amp;rsquo; Union (EOU) Conference in Bangor, UK, on 19 August 2025. The symposium brought together researchers studying mitochondrial function in birds across developmental, dietary, evolutionary, and environmental contexts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Talks&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stefania Casagrande:&lt;/strong&gt; Mitochondrial biology as a key mechanism linking reduced size and warmer nest temperatures in seabird nestlings&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Elisa Thoral:&lt;/strong&gt; Changes in diet composition affect energy metabolism at several biological scales in Japanese quail&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Neal Dawson:&lt;/strong&gt; Convergent and time-dependent evolutionary changes in mitochondrial function in high-altitude waterfowl&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pablo Salmón:&lt;/strong&gt; Mitochondrial function and avian migration: lessons from a partial migrant&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Molly Ohse:&lt;/strong&gt; Cascading effects of mercury on mitochondrial traits and individual fitness in a wild population of European dippers&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

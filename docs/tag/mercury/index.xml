@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mercury | Molly Ohse</title>
+    <link>/tag/mercury/</link>
+      <atom:link href="/tag/mercury/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mercury</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2026 Molly Ohse</copyright><lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu9de50292016a166088f5b249ab58de73_19061_512x512_fill_lanczos_center_3.png</url>
+      <title>Mercury</title>
+      <link>/tag/mercury/</link>
+    </image>
+    
+    <item>
+      <title>Oral presentation at the International Ornithological Congress 2026</title>
+      <link>/post/ioc-talk-2026/</link>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0000</pubDate>
+      <guid>/post/ioc-talk-2026/</guid>
+      <description>&lt;p&gt;I will give an oral presentation at the International Ornithological Congress (IOC 2026) in Mérida, Mexico, in the session &lt;em&gt;Disease and environmental stressors&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Talk:&lt;/strong&gt; &lt;em&gt;Maternal mercury concentrations affect offspring mitochondrial function and growth&lt;/em&gt;
+&lt;strong&gt;When:&lt;/strong&gt; Tuesday 1 December 2026, 16:15
+&lt;strong&gt;Where:&lt;/strong&gt; Room 26A&lt;/p&gt;
+&lt;p&gt;Mercury is a pervasive pollutant known to disrupt mitochondrial respiration, yet its effects on developing offspring in the wild are difficult to separate from genetic and environmental influences. In a two-year partial cross-fostering experiment in white-throated dippers (&lt;em&gt;Cinclus cinclus&lt;/em&gt;), we exchanged nestlings between nests along a gradient of mercury exposure, allowing us to separate pre-hatching (maternal) from post-hatching exposure. The talk presents how maternal mercury relates to nestling mitochondrial respiration, oxidative stress, and growth.&lt;/p&gt;
+&lt;p&gt;I am grateful to the Swiss Society of Toxicology for a travel grant supporting my attendance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Oral presentation at the Swiss Society of Toxicology Annual Meeting 2026</title>
+      <link>/post/sst-talk-2026/</link>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0000</pubDate>
+      <guid>/post/sst-talk-2026/</guid>
+      <description>&lt;p&gt;My abstract, originally accepted as a poster, was selected for an oral presentation at the Swiss Society of Toxicology (SST) Annual Meeting 2026.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Talk:&lt;/strong&gt; &lt;em&gt;Maternal mercury exposure is associated with lower nestling mitochondrial respiration in a wild songbird: a cross-fostering experiment&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The talk presented results from our partial cross-fostering experiment in white-throated dippers, showing that maternal mercury exposure was negatively associated with nestling mitochondrial respiration (OXPHOS), independently of the post-hatching rearing environment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sources and variation in contaminant exposure</title>
+      <link>/project/mercury-exposure/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/project/mercury-exposure/</guid>
+      <description>&lt;p&gt;Mercury and other metals reach riverine birds through their aquatic prey, yet exposure varies widely among individuals and sites. Using repeated feather samples from a long-term, individual-based population of white-throated dippers in the Massif de la Chartreuse (France), I partition variation in mercury and metal(loid) concentrations among individuals, territories, rivers, and years, and test how urbanisation, agriculture, and elevation shape exposure. Related work compares blood and feather mercury across spatial scales and, using the population&amp;rsquo;s social pedigree, estimates the heritability of mercury contamination.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; Pierre Bize, Blandine Doligez, Gareth Norton, Lara Hinninger&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mitochondria as early-warning biomarkers</title>
+      <link>/project/mitochondria/</link>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/project/mitochondria/</guid>
+      <description>&lt;p&gt;Mitochondrial function integrates genetic, developmental, and environmental influences on performance, and is a likely target of mercury toxicity. In a two-year partial cross-fostering experiment (62 nest pairs, 459 nestlings), I separated natal (genetic and pre-hatching) from rearing (post-hatching) contributions to nestling mitochondrial respiration, and tested whether parental mercury exposure affects mitochondrial function, oxidative stress, and growth. To make this possible in the field, we developed and validated a high-throughput plate-reader method for measuring mitochondrial aerobic metabolism in avian blood cells (&lt;a href=&#34;https://doi.org/10.1242/bio.062712&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hadjadji, Ohse et al. 2026, &lt;em&gt;Biology Open&lt;/em&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; Pierre Bize, Blandine Doligez, Antoine Stier, Cloé Hadjadji, Anne Cillard, Mélina Bastianelli&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Consequences of mercury for life history</title>
+      <link>/project/life-history/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/project/life-history/</guid>
+      <description>&lt;p&gt;Laboratory studies have described mercury&amp;rsquo;s toxic mechanisms in detail, but its consequences in wild populations, where exposure interacts with food limitation, breeding effort, and other stressors, remain poorly characterised. Using repeated measures of feather mercury and long-term individual monitoring, I quantify short-term and carry-over effects of mercury on adult biometry, oxidative stress, reproduction, and survival. Ongoing work measures feather corticosterone to test whether mercury exposure alters the stress physiology of wild dippers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; Pierre Bize, Blandine Doligez&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

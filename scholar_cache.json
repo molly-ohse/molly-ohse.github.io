@@ -1,7 +1,7 @@
 {
   "h_index": 1,
   "total_cites": 1,
-  "fetched": "07 November 2026",
+  "fetched": "15 November 2026",
   "works": [
     {
       "key": "highthroughputmitochondrialaerobicmetabolismmeasurementassessingaplatereaderapproachusingavianbloodcells",
@@ -10,6 +10,15 @@
       "journal": "Biology Open",
       "number": "15 (10), bio062712",
       "cites": 1,
+      "year": 2026
+    },
+    {
+      "key": "spatialscaleandsitefidelityshapethecorrelationbetweenbloodandfeathermercuryinariverinebird",
+      "title": "Spatial scale and site fidelity shape the correlation between blood and feather mercury in a riverine bird",
+      "author": "L Hinninger, M Ohse, B Doligez, P Bize",
+      "journal": "EcoEvoRxiv",
+      "number": "",
+      "cites": 0,
       "year": 2026
     },
     {
